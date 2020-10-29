@@ -1,0 +1,68 @@
+.body {
+    margin: 0px;
+}
+
+#header, #footer {
+    width: 100%;
+    height: 60px;
+    background-color:#00fdc8ff;
+}
+
+.section {
+    width: 100%;
+    height: 500px;
+}
+
+.colored {
+    background-color: #78909cff;
+}
+
+.left {
+    float: left;
+    height: 50%;
+    width: 50%;
+    overflow: hidden; /* chop off images sticking out */
+}
+
+.right {
+    float: right;
+    height: 100%;
+    width: 50%;
+    overflow: hidden; /* chop off images sticking out */
+}
+
+img {
+    min-width: 100%;
+    height: 100%;
+}
+
+/* correct for default styling of header */
+#header h3 {
+    margin: 0;
+    padding: 15px;
+}
+
+.text-box {
+    padding: 15px;
+}
+
+/* make text bigger */
+ul, p {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* footer flexbox */
+#footer {
+    display: flex; /* make this a flexbox container */
+    flex: 1; /* take up all available space */
+    justify-content: center; /*align footer text horizontally */
+    align-items: center; /* align footer text vertically */
+}
